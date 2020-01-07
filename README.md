@@ -13,7 +13,7 @@ Rails.application.routes.draw do
 end
 
 # 3. Creating book model
-rails g model Book title:string author:string weight:string publisher:string language:string pages:integer publication_date:datetime
+rails g model User name:string mobile:string
 
 # 4. for create the database
 rake db:create
